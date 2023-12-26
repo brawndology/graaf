@@ -28,4 +28,3 @@ option(SKIP_BENCHMARKS "Skip building the performance benchmarks" OFF)
 if(NOT SKIP_BENCHMARKS)
 add_subdirectory(perf)
 endif()
-
